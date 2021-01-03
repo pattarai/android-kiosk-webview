@@ -12,9 +12,9 @@ public class WebViewActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.webview);
 
-        mWebView = (android.webkit.WebView) findViewById(R.id.activity_main_webview);
+        mWebView = (android.webkit.WebView) findViewById(R.id.webview);
         // Enable Javascript
         WebSettings webSettings = mWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
